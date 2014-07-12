@@ -71,13 +71,13 @@
 		
 		a:hover
 		{
-			color: #757575;
-			border-bottom-color: rgba(255,255,255,0);
+			color: #111111;
+			border-bottom-color: rgba(20, 20, 20, 0.73);
 		}
 		
 		a:hover strong
 		{
-			color: #750D00;
+			color: #0E257E;
 		}
 
 	strong, b
@@ -121,7 +121,8 @@
 	p
 	{
 		color: #1F1F1F;
-	}
+	
+}
 	
 	p, ul, ol, dl, table, blockquote
 	{
@@ -974,7 +975,7 @@
 		color: #fff;
 		position: relative;
 		text-align: center;
-		background: rgba(201, 31, 5, 0.76);
+		background: rgba(83, 96, 216, 0.76);
 		background-image: url('https://opnex.s3.amazonaws.com/images/raster.png');
 	}
 
@@ -1121,7 +1122,7 @@
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #FFE7E7;
+				color: #E7F4FF;
 				outline: 0;
 			
 				font-weight: bold;
@@ -1130,7 +1131,7 @@
 				#nav > ul > li > a:before
 				{
 					display: inline-block;
-					background: #E5A7A7;
+					background: #A7CCE5;
 					color: #fff;
 					width: 1.65em;
 					height: 1.65em;
@@ -1168,7 +1169,7 @@
 					#nav > ul > li.active > a:before,
 					#nav > ul > li:hover > a:before
 					{
-						background: #ED786A;
+						background: #919CDA;
 						color: #fff;
 					}
 			
