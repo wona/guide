@@ -1038,7 +1038,6 @@
 	{
 		padding: 10px 10px;
 		position: relative;
-		overflow: hidden;
 		background: #f0f0f0;
 	}
 	
@@ -1263,3 +1262,11 @@
 	{
 		float: right;
 	}
+
+		.fb-like
+		{
+			position: relative;
+			left: 40%;
+			height: 30px;
+    		overflow: hidden;
+		}
