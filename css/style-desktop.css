@@ -168,6 +168,7 @@
 
 	#nav
 	{
+		position: absolute;
 		top: 2em;
 		text-align: center;
 		width: 100%;

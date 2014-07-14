@@ -228,7 +228,9 @@
 		{
 			list-style: decimal;
 			margin-left: 1em;
-		}
+		
+			display: inline-block;
+}
 
 			ul.links li
 			{
@@ -993,7 +995,8 @@
 		border-top: solid 2px #e5e5e5;
 		border-bottom: solid 2px #e5e5e5;
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5, inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
-	}
+	
+}
 
 		#banner-wrapper .inner
 		{
@@ -1039,7 +1042,8 @@
 		padding: 10px 10px;
 		position: relative;
 		background: #f0f0f0;
-	}
+	
+}
 	
 		#footer-wrapper form input.text,
 		#footer-wrapper form select,
@@ -1108,7 +1112,6 @@
 	#nav
 	{
 		cursor: default;
-		position: fixed;
 	}
 
 		#nav > ul > li
@@ -1266,7 +1269,7 @@
 		.fb-like
 		{
 			position: relative;
-			left: 40%;
 			height: 30px;
     		overflow: hidden;
+			left: 15%;
 		}
