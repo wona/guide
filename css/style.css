@@ -461,8 +461,8 @@
 		{
 			position: relative;
 			display: inline-block;
-			background: #ed786a;
-			color: #fff !important;
+			background: #ccffcc;
+			color: black !important;
 			text-transform: uppercase;
 			border-radius: 4px;
 			border: 0;
@@ -997,7 +997,9 @@
 		margin-left:0px;
 		text-align:center;
 		width:100%;
-		padding:10% 30%;
+		padding-top:10%;
+		padding-left:30%;
+		padding-right:30%;
 		
 		position: relative;
 		text-align: center;
@@ -1009,6 +1011,10 @@
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 		line-height:2em;
 	}
+ #introduction img{
+ 	padding-bottom: 0px;
+ 	margin-bottom: 0px;
+ }
 	#banner-wrapper
 	{
 		position: relative;
@@ -1059,6 +1065,7 @@
 		overflow: hidden;
 		/*background: rgba(255, 255, 255, 1);*/
 		background:#185702;
+		font-weight: 500;
 	}
 	
 	#footer-wrapper
