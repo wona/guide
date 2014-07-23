@@ -1196,7 +1196,7 @@
 	#banner
 	{
 		position: relative;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 	
 		#banner p
