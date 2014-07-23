@@ -77,7 +77,7 @@
 		
 		a:hover strong
 		{
-			color: #0E257E;
+			color: #0f0231;
 		}
 
 	strong, b
@@ -975,8 +975,10 @@
 		color: #fff;
 		position: relative;
 		text-align: center;
-		background: rgba(83, 96, 216, 0.76);
-		background-image: url('https://opnex.s3.amazonaws.com/images/raster.png');
+		/*background: rgba(83, 96, 216, 0.76);
+		background-image: url('https://opnex.s3.amazonaws.com/images/raster.png');*/
+		background: #032e8e;
+		font-color: #d7dff1;
 	}
 
 		#header-wrapper p
@@ -1078,7 +1080,7 @@
 		{
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #FFFFFF;
+			color: #d7dff1;
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 			background-image: url('https://opnex.s3.amazonaws.com/images/raster.png');
 		
@@ -1090,6 +1092,7 @@
 			#header h1 a
 			{
 				border: 0;
+				font-color: #d7dff1;
 			}
 		
 		#header p
@@ -1109,6 +1112,7 @@
 	{
 		cursor: default;
 		position: fixed;
+		background-image: url('https://opnex.s3.amazonaws.com/images/raster.png');
 	}
 
 		#nav > ul > li
