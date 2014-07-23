@@ -15,6 +15,7 @@
 	body
 	{
 		background: url('../images/main_building2.jpg') no-repeat center center fixed;
+		overflow-x:hidden;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -981,13 +982,33 @@
 		background-image: url('https://opnex.s3.amazonaws.com/images/raster.png');*/
 		background: #032e8e;
 		font-color: #d7dff1;
+		padding-top: 10%;
+
 	}
 
 		#header-wrapper p
 		{
 			/*text-align: center;*/
 		}
-	
+ #introduction
+	{
+		background-color: #d6eff5;
+		width:1200px;
+		margin-left:0px;
+		text-align:center;
+		width:100%;
+		padding:10% 30%;
+		
+		position: relative;
+		text-align: center;
+		/*background: rgba(83, 96, 216, 0.76);
+		background-image: url('https://opnex.s3.amazonaws.com/images/raster.png');*/
+		font-color: #d7dff1;
+		font-weight:500;
+			
+			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+		line-height:2em;
+	}
 	#banner-wrapper
 	{
 		position: relative;
@@ -1036,7 +1057,8 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: rgba(255, 255, 255, 1);
+		/*background: rgba(255, 255, 255, 1);*/
+		background:#185702;
 	}
 	
 	#footer-wrapper
@@ -1078,6 +1100,7 @@
 	#header
 	{
 		position: relative;
+		
 	}
 
 		#header h1
