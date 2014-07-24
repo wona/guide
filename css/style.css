@@ -1002,10 +1002,10 @@
 		margin-left:0px;
 		margin: auto;
 		text-align:center;
-		padding-top:10%;
-		padding-bottom: 10%;
+		padding-top:3%;
+		padding-bottom: 30%;
 		padding-left: 50px;
-		padding-right: 50px;
+		/*padding-right: 50px;*/
 		position: relative;
 		text-align: center;
 		/*background: rgba(83, 96, 216, 0.76);
@@ -1018,15 +1018,20 @@
 	}
 
 	 #introduction-wrapper img{
-	 	width: 100%;
 	 	padding-bottom: 0px;
+	 	/*position: relative;
 	 	margin-bottom: 0px;
+	 	margin-right: -27%;*/
+	 	position:absolute;
+	 	bottom:1%;
+	 	right:0px;
+	 	width:80%;
 	 }
 	#banner-wrapper
 	{
 		position: relative;
 		overflow: hidden;
-		color: #fff;
+		color: #800000;
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
 		border-bottom: solid 2px #e5e5e5;
@@ -1041,11 +1046,13 @@
 		
 			opacity: 0.9;
 			padding: 3em 0;
+			color:#800000;
 }
 
 		#banner-wrapper p
 		{
 			text-align: center;
+			color:#800000;
 		}
 	
 	#features-wrapper
@@ -1071,10 +1078,14 @@
 		position: relative;
 		overflow: hidden;
 		/*background: rgba(255, 255, 255, 1);*/
-		background:#FFF;
+		background:#185702;
 		font-weight: 500;
+		color:#ffffdd;
 	}
-	
+	#main-wrapper p
+	{
+		color:#ffffdd;
+	}
 	#footer-wrapper
 	{
 		padding: 10px 10px;
@@ -1244,6 +1255,7 @@
 		#banner p
 		{
 			font-weight: 400;
+			color:#800000;
 		}
 
 		#banner strong
