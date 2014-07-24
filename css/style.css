@@ -462,7 +462,7 @@
 		{
 			position: relative;
 			display: inline-block;
-			background: #ccffcc;
+			background: #F7A193;
 			color: black !important;
 			text-transform: uppercase;
 			border-radius: 4px;
@@ -1071,7 +1071,7 @@
 		position: relative;
 		overflow: hidden;
 		/*background: rgba(255, 255, 255, 1);*/
-		background:#185702;
+		background:#FFF;
 		font-weight: 500;
 	}
 	
