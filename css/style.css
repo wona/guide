@@ -15,11 +15,13 @@
 	body
 	{
 		background: url('../images/main_building2.jpg') no-repeat center center fixed;
-		overflow-x:hidden;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+
+		overflow-x: hidden;
+
 	}
 
 	body,input,textarea,select
@@ -141,6 +143,7 @@
 		article
 		{
 			margin-bottom: 3em;
+			text-align: center;
 		}
 		
 		section > :last-child,
@@ -990,17 +993,21 @@
 		{
 			/*text-align: center;*/
 		}
- #introduction
+
+	#introduction-wrapper
 	{
 		background-color: #d6eff5;
-		width:1200px;
+	}
+
+ 	#introduction
+	{		
 		margin-left:0px;
+		margin: auto;
 		text-align:center;
-		width:100%;
 		padding-top:10%;
-		padding-left:30%;
-		padding-right:30%;
-		
+		padding-bottom: 10%;
+		padding-left: 50px;
+		padding-right: 50px;
 		position: relative;
 		text-align: center;
 		/*background: rgba(83, 96, 216, 0.76);
@@ -1011,10 +1018,12 @@
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 		line-height:2em;
 	}
- #introduction img{
- 	padding-bottom: 0px;
- 	margin-bottom: 0px;
- }
+
+	 #introduction-wrapper img{
+	 	width: 100%;
+	 	padding-bottom: 0px;
+	 	margin-bottom: 0px;
+	 }
 	#banner-wrapper
 	{
 		position: relative;
@@ -1118,10 +1127,10 @@
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 			background-image: url('https://opnex.s3.amazonaws.com/images/raster.png');
 		
-			width: 1200px;
+			/*width: 1200px;
 			position: relative;
-			left: -50%;
-}
+			left: -50%;*/
+		}
 
 			#header h1 a
 			{
@@ -1250,10 +1259,10 @@
 	
 	#content
 	{
-    width: 80%;
+    /*width: 100%;
 	
     position: relative;
-    left: 13%;
+    left: 13%;*/
 }
 
 		#content > section,
