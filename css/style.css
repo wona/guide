@@ -20,8 +20,6 @@
 		-o-background-size: cover;
 		background-size: cover;
 
-		overflow-x: hidden;
-
 	}
 
 	body,input,textarea,select
