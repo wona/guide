@@ -287,7 +287,10 @@
 	{
 		padding: 2em 0 2em 0;
 	}
-	
+	  #banner #titles
+	  {
+	  	color:white;
+	  }  
 		#banner p
 		{
 			font-size: 1.2em;
