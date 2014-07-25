@@ -1090,6 +1090,13 @@
 	{
 		color:#ffffdd;
 	}
+	#main-wrapper img
+	{
+		float:left;
+		margin-left: 4%;
+		margin-top:3%;
+		height: 30%;
+	}
 	#footer-wrapper
 	{
 		padding: 10px 10px;
